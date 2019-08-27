@@ -1,0 +1,37 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+dependencies {
+    compile 'com.android.tools.build:gradle:3.0.0'
+    compile 'org.json:json:20160212'
+    compile 'org.codehaus.groovy:groovy:2.4.7'
+    compile 'com.squareup:javapoet:1.5.1'
+
+    compile gradleApi()
+    compile localGroovy()
+
+    compile 'com.google.gradle:osdetector-gradle-plugin:1.2.1'
+    compile 'net.dongliu:apk-parser:2.2.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+//maven 库组id
+//group='com.qihoo360.replugin'
+//版本号
+//version='1.0.0'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            //发布到本地仓库地址
+            repository(url:uri('C:/Users/lp/Desktop/release'))
+            pom.groupId = "com.qihoo360.replugin"// 唯一标识（通常为模块包名，也可以任意）
+            pom.artifactId = "FixReplugLib" // 项目名称（通常为类库模块名称，也可以任意）
+            pom.version = "1.0.0" // 版本号
+        }
+    }
+}
