@@ -22,7 +22,7 @@ repositories {
 //maven 库组id
 group='com.qihoo360.replugin'
 //版本号
-version='1.0.0'
+version='1.0.1'
 
 uploadArchives {
     repositories {

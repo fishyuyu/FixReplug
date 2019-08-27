@@ -181,7 +181,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}N1TA${i}NRTS${j}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeTS}",
                             "${task}": ":t${i}")
                 }
@@ -190,7 +190,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}N1TA${i}STPTS${j}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeTS}",
                             "${task}": ":t${i}",
                             "${launchMode}": "singleTop")
@@ -200,7 +200,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}N1TA${i}STTS${j}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeTS}",
                             "${task}": ":t${i}",
                             "${launchMode}": "singleTask")
@@ -211,7 +211,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}N1TA${i}NRNTS${j}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeNTS}",
                             "${task}": ":t${i}")
                 }
@@ -220,7 +220,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}N1TA${i}STPNTS${j}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeNTS}",
                             "${task}": ":t${i}",
                             "${launchMode}": "singleTop")
@@ -230,7 +230,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}N1TA${i}STNTS${j}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeNTS}",
                             "${task}": ":t${i}",
                             "${launchMode}": "singleTask")
@@ -263,7 +263,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}NRTS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeTS}",
                             "${process}": ":p${p}")
                 }
@@ -272,7 +272,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}STPTS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeTS}",
                             "${process}": ":p${p}",
                             "${launchMode}": "singleTop")
@@ -282,7 +282,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}STTS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeTS}",
                             "${process}": ":p${p}",
                             "${launchMode}": "singleTask")
@@ -292,7 +292,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}SITS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeTS}",
                             "${process}": ":p${p}",
                             "${launchMode}": "singleInstance")
@@ -302,7 +302,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}NRNTS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeNTS}",
                             "${process}": ":p${p}")
                 }
@@ -311,7 +311,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}STPNTS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeNTS}",
                             "${process}": ":p${p}",
                             "${launchMode}": "singleTop")
@@ -321,7 +321,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}STNTS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeNTS}",
                             "${process}": ":p${p}",
                             "${launchMode}": "singleTask")
@@ -331,7 +331,7 @@ class ComponentsGenerator {
                             "${name}": "${applicationID}.${infix}P${p}SINTS${it}",
                             "${cfg}": "${cfgV}",
                             "${exp}": "${expV}",
-                            "${ori}": "${oriV}",
+                            "${ori}": "${oriH}",
                             "${theme}": "${themeNTS}",
                             "${process}": ":p${p}",
                             "${launchMode}": "singleInstance")
@@ -344,7 +344,7 @@ class ComponentsGenerator {
                                 "${name}": "${applicationID}.${infix}P${p}TA${i}NRTS${j}",
                                 "${cfg}": "${cfgV}",
                                 "${exp}": "${expV}",
-                                "${ori}": "${oriV}",
+                                "${ori}": "${oriH}",
                                 "${theme}": "${themeTS}",
                                 "${process}": ":p${p}",
                                 "${task}": ":t${i}")
@@ -354,7 +354,7 @@ class ComponentsGenerator {
                                 "${name}": "${applicationID}.${infix}P${p}TA${i}STPTS${j}",
                                 "${cfg}": "${cfgV}",
                                 "${exp}": "${expV}",
-                                "${ori}": "${oriV}",
+                                "${ori}": "${oriH}",
                                 "${theme}": "${themeTS}",
                                 "${launchMode}": "singleTop",
                                 "${process}": ":p${p}",
@@ -365,7 +365,7 @@ class ComponentsGenerator {
                                 "${name}": "${applicationID}.${infix}P${p}TA${i}STTS${j}",
                                 "${cfg}": "${cfgV}",
                                 "${exp}": "${expV}",
-                                "${ori}": "${oriV}",
+                                "${ori}": "${oriH}",
                                 "${theme}": "${themeTS}",
                                 "${launchMode}": "singleTask",
                                 "${process}": ":p${p}",
@@ -376,7 +376,7 @@ class ComponentsGenerator {
                                 "${name}": "${applicationID}.${infix}P${p}TA${i}NRNTS${j}",
                                 "${cfg}": "${cfgV}",
                                 "${exp}": "${expV}",
-                                "${ori}": "${oriV}",
+                                "${ori}": "${oriH}",
                                 "${theme}": "${themeNTS}",
                                 "${process}": ":p${p}",
                                 "${task}": ":t${i}")
@@ -386,7 +386,7 @@ class ComponentsGenerator {
                                 "${name}": "${applicationID}.${infix}P${p}TA${i}STPNTS${j}",
                                 "${cfg}": "${cfgV}",
                                 "${exp}": "${expV}",
-                                "${ori}": "${oriV}",
+                                "${ori}": "${oriH}",
                                 "${theme}": "${themeNTS}",
                                 "${launchMode}": "singleTop",
                                 "${process}": ":p${p}",
@@ -397,7 +397,7 @@ class ComponentsGenerator {
                                 "${name}": "${applicationID}.${infix}P${p}TA${i}STNTS${j}",
                                 "${cfg}": "${cfgV}",
                                 "${exp}": "${expV}",
-                                "${ori}": "${oriV}",
+                                "${ori}": "${oriH}",
                                 "${theme}": "${themeNTS}",
                                 "${launchMode}": "singleTask",
                                 "${process}": ":p${p}",
