@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/fishyuyu/FixReplug.svg)](https://jitpack.io/#fishyuyu/FixReplug)
 # FixReplug
 把360Replug的竖屏修改成横屏
 
